@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Giulia</forename>
+                  <surname>Zava</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0023_fa_0009v-10r.jp2/full/full/0/default.jpg"/>
+         <zone points="236,132 394,132 389,520 236,517 236,134" xml:id="zone_9v-10r_Verso_Lirica"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Lirica">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_9v-10r_Verso_Lirica" xml:id="pb_9v-10r_Verso_Lirica" />
+               <pb ed="Edigi" n="95" xml:id="Egidi_lir_95"/>
+                  <lg>
+                     <l>Questa gente to colta</l>
+                     <l>etu deglialtri<note> <hi rend="italic">B</hi> delglialtri</note> asimil prendi modo</l>
+                     <l>ma qui disgroppo un nodo</l>
+                     <l>se fossi in sala o in camera poi</l>
+                  </lg>
+               <pb ed="Egidi" n="96" xml:id="Egidi_lir_96"/>
+                  <lg>
+                     <l>Che quivi convien noi</l>
+                     <l>certe altre cose veder<note> <hi rend="italic">B</hi> vedere</note> e notare</l>
+                     <l>e salvo il ragionare</l>
+                     <l>che cosa nuova occorrendo richiede</l>
+                  </lg>
+               <pb ed="Egidi" n="97" xml:id="Egidi_lir_97"/>
+                  <lg>
+                     <l>Sun gran signor<note> <hi rend="italic">B</hi> singnior</note> vi siede</l>
+                     <l>o gente<note> <hi rend="italic">B</hi> ogiente</note> tutta maggior che tu sia</l>
+                     <l>dimanderai in pria</l>
+                     <l>di che voglion udir<note> <hi rend="italic">B</hi> voglonudir</note> se dicon parla</l>
+                     <l>Esa cosi contarla</l>
+                     <l>non ti senti fornito si aspecta</l>
+                  </lg>
+               <pb ed="Egidi" n="98" xml:id="Egidi_lir_98"/>
+                  <lg>
+                     <l>seguir alchuna detta</l>
+                     <l>ese ti manca . il meglio<note> <hi rend="italic">Nel ms. B le parole</hi> il meglio<hi rend="italic">sono aggiunte nell' interlineo.</hi></note> e che tu taccia .</l>
+                     <l>Equando parli abbraccia</l>
+                     <l>brievi egran cose lordine servato</l>
+                     <l>chio to disovra dato</l>
+                     <l>elassa dir in meço<note> <hi rend="italic">B</hi> mecço</note> atue novelle</l>
+                  </lg>
+               <pb ed="Egidi" n="99" xml:id="Egidi_lir_99"/>
+                  <lg>
+                     <l>Ese persone quelle</l>
+                     <l>parlassen di mottetti dalli prima</l>
+                     <l>nela tua mente cima .</l>
+                     <l>epoi gli parla apunto e brevi e pochi</l>
+                     <l>Sedendo in questi lochi</l>
+                     <l>parli la lingua edorman laltre membra</l>
+                  </lg>
+               <pb ed="Egidi" n="100" xml:id="Egidi_lir_100"/>
+                  <lg>
+                     <l>equi si ti rimembra<note> <hi rend="italic">B</hi> ririmenbra</note></l>
+                     <l>di tutto il precedente documento</l>
+                     <l>Or ti vo far attento</l>
+                     <l>del documento delandar con gente</l>
+                     <l>cocchorre spessamente</l>
+                     <l>e fa gradir ai buon chil vuol seguire.</l>
+                  </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
