@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti d'Amore</title>
+            <respStmt>
+               <resp>Responsabile della codifica</resp>
+               <persName>
+                  <forename>Giulia</forename>
+                  <surname>Zava</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><p></p></publicationStmt>
+         <sourceDesc><p></p></sourceDesc>
+      </fileDesc>
+   </teiHeader>
+
+   <facsimile>
+      <surface>
+         <graphic url="http://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0023_fa_0009v-10r.jp2/full/full/0/default.jpg"/>
+         <zone points="182,135 240,135 239,523 298,527 302,567 182,563" xml:id="zone_9v-10r_Verso_Translatio_sinistra"/>
+      </surface>
+   </facsimile>
+
+   <text>
+      <body>
+         <div type="Translatio_sinistra">
+            <pb ed="MSS_Barb_lat_4076" facs="#zone_9v-10r_Verso_Translatio_sinistra" xml:id="pb_9v-10r_Verso_Translatio_sinistra" />
+                  <ab><hi rend="italic">occurrerit appetit.
+               <pb ed="Egidi" n="97" xml:id="Egidi_tra_sx_97"/>
+                  si quidam magnus, ibi sederit dominus, vel gens omnis te maior, de quibus audire voluerint, si quod loquaris dixerint, primo petas . ¶ Et si ad hoc taliter adducendum, non senseris te	munitum, ut sequaris
+               <pb ed="Egidi" n="98" xml:id="Egidi_tra_sx_98"/>
+                  aliquid, quod ab illis referatur expecta. ¶ Quod si etiam in hoc deficis, est eligibilius te tacere . ¶ Cum autem ad loquendum ingrederis, amplectere grandia breviaque, ordine a me tibi designato superius observato. ¶ Et sine quod alij de suis rese-
+               <pb ed="Egidi" n="99" xml:id="Egidi_tra_sx_99"/>
+                  rent novitatibus infra tuas. ¶ Sique tales locuti fuerint de</hi></ab>
+         </div>
+      </body>
+   </text>
+</TEI>
